@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css!family=Poppins:300,400,500,600,700,800,900&display=swap');
+*{
+    font-family: 'Popping', sans-serif;
+}
+table {
+    border: 5px outset orange;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+}
+.T1{
+    text-align: left;
+}
+.T2{
+    text-align: right;
+}
+.T3{
+    text-align: left;
+}
+.T4{
+    text-align: right;
+}
+.Cancel{
+    background-color: red;
+    color:white;
+    outline: none;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    width: 70px;
+}
+.Submit{
+    background-color: green;
+    color:white;
+    outline: none;
+    padding: 10px;
+    border: 0;
+    width: 70px;
+}
+th{
+    background-image: linear-gradient(rgb(0, 255, 191), rgb(0, 255, 238));
+    padding: 10px;
+}
+td{
+    color: yellow;
+    background-color: rgb(97, 96, 95);
+    padding: 10px;
+}
